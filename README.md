@@ -1,6 +1,6 @@
 # Transit Exoplanet Detection via Machine Learning #
 
-![Test Image 1](exoplanet1.webp)
+![Test Image 1](exoplanet.jpg)
 
 
 Scientists use data collected by space telescopes to find new information that allows us to learn more about the universe. The NASA Kepler space telescope has been collecting light from thousands of stars for many years to detect the presence of exoplanets.
