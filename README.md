@@ -10,9 +10,7 @@ An exoplanet is a planet that orbits a star, just like the Earth; however these 
 In this project we used a dataset from the kaggle site, coming from the Mikulski Archive, a large archive of astronomical data for classifying the light curve of the stars to check the presence of the exoplanets. We applied different feature engineering techniques to the dataset and then we will present a neural network ( CNN ), which is a strong model in Deep Learning for time series classification ( TSC ), and a SVC model which will be used for classifying the brightness flux of stars. We will compare these 2 models in this task and this will show how a deep learning approach in this problem achieves a great performance. Since the measure of brightness is a standard in these applications, these predictive models can be useful for future works with other and new larger dataset.
 
 ## Dataset ##
-The dataset that we've used is a kaggle dataset : https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data
-
-This contains data of the luminosity flux of over 5000 stars. Precisely the dataset has dimensions (5087, 3198), which the first column is the target value. An important thing to consider is the fact that the dataset is unbalanced. There are very few positive examples, less than 1% of the entire training set and the same in the test set. Here below we can see an example of signals and the respective smoothed version.
+The dataset that we've used contains data of the luminosity flux of over 5000 stars. Precisely the dataset has dimensions (5087, 3198), which the first column is the target value. An important thing to consider is the fact that the dataset is unbalanced. There are very few positive examples, less than 1% of the entire training set and the same in the test set. Here below we can see an example of signals and the respective smoothed version.
 
 ![Test Image 1](signal1.png)
 ![Test Image 1](signal2_gauss.png)
